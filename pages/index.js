@@ -173,7 +173,7 @@ export default function Home() {
         <meta name="description" content="Vector search online is a tool that allows you to input a text and match it with a list of elements. We will show you the match score, along with which elements are the better matches." />
         
       </Head>
-      <h1>Vector searcg online</h1>
+      <h1>Vector search online</h1>
       <p>
         On this page, you can input a text and match it with a list of elements. We will show you the match score, along with which elements are the better matches.
       </p>
