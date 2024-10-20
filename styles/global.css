@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0rem;
+  margin: 0;
+}
+
+body {
+  padding: 1rem;
+  max-width: 100vw;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p,
+li {
+  max-width: 600px;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-top: 5rem;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.match-container {
+  width: 100%;
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+.match-container textarea {
+  flex-grow: 1;
+}
+
+button {
+  background: transparent;
+  padding: 0.5rem 0.5rem;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  border: none;
+  background: #6087db;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+}
+
+textarea {
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.query-textarea {
+  width: 100%;
+  height: 100%;
+}
