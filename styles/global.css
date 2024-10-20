@@ -59,16 +59,18 @@ button {
   margin: 0 0.5rem;
   font-size: 1rem;
   border: none;
-  background: #6087db;
+  background: #FFD901;
   border-radius: 5px;
   color: white;
   font-weight: 600;
+  cursor: pointer;
 }
 
 textarea {
   font-size: 16px;
   border-radius: 5px;
   border: 1px solid #ccc;
+  padding: 0.5rem;
 }
 
 .query-textarea {

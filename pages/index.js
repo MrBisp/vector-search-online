@@ -169,7 +169,8 @@ export default function Home() {
     <>
       <Head>
         <title>Vector search online</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
+        <meta name="description" content="Vector search online is a tool that allows you to input a text and match it with a list of elements. We will show you the match score, along with which elements are the better matches." />
       </Head>
       <h1>Vector matching online</h1>
       <p>
@@ -207,13 +208,13 @@ export default function Home() {
       <button
         onClick={matchHandler}
         disabled={isCalculating}
-        style={{ 'width': '100%', 'margin': '2rem 0', 'font-size': '2rem', 'background': '#6087db' }}
+        style={{ 'width': '100%', 'margin': '2rem 0', 'font-size': '2rem', 'background': '#ffde21' }}
       >
         {isCalculating ? 'Calculating...' : 'Match'}
       </button>
 
       <br /><br />
-      <div style={{ 'background': '#ccc', 'padding': '1rem' }}>
+      <div style={{ 'background': '#FFF5BA', 'padding': '1rem' }}>
         {!userMessage && !response ? (
           <p>Results will appear here when they are ready </p>
         ) : null}
